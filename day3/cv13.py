@@ -1,5 +1,6 @@
 #Motion Tracker
 import cv2
+
 cap = cv2.VideoCapture("Walking.mp4")
 check , frame1 = cap.read()
 check , frame2 = cap.read()
