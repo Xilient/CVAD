@@ -8,7 +8,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 thresh_val = [50,100,150,200,250]
 #แถม คอลลัม ภาพ
 plt.subplot(231,xticks=[],yticks=[])
-plt.title("Image")
+plt.title("Original")
 plt.imshow(gray,cmap="gray")
 
 for i in range(len(thresh_val)):

@@ -2,8 +2,8 @@
 import cv2
 import numpy
 
-# img = cv2.imread("cat.jpg")
-# img = cv2.resize(img,(600,600))
+img = cv2.imread("cat.jpg")
+img = cv2.resize(img,(600,600))
 img  = numpy.zeros([400,400,3])
 
 points = []

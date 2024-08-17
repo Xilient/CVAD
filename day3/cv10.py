@@ -11,7 +11,7 @@ laplacian = cv2.Laplacian(img, -1)
 canny = cv2.Canny(img,50,200)
 
 titles = ["Original","SobelX","SobelY","SobelXY","Lapacian","Canny"]
-images = [img,sobelX,sobelY,sobelXY,lapacian,canny]
+images = [img,sobelX,sobelY,sobelXY,laplacian,canny]
 
 for  i in range(len(images)):
     plt.subplot(2,3,i+1)
