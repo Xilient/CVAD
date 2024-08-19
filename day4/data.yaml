@@ -1,0 +1,13 @@
+names:
+- cat
+- dog
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: dog-and-cat-tqnl7
+  url: https://universe.roboflow.com/aussadawut-phathong/dog-and-cat-tqnl7/dataset/3
+  version: 3
+  workspace: aussadawut-phathong
+test: test/images
+train: train/images
+val: valid/images
