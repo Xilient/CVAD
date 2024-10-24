@@ -1,4 +1,4 @@
-#Eyes detection
+#Face & Eyes detection
 import cv2
 
 cap = cv2.VideoCapture("Video.mp4")
